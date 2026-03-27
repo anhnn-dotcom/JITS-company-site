@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +41,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center gap-2">
               <Link to="/" className="flex items-center gap-2">
-                <img src={logo} alt="JITS Innovations Labs Logo" className="h-8 w-auto" />
+                <img src="/logo.png" alt="JITS Innovations Labs Logo" className="h-8 w-auto" />
                 <span className="font-bold text-xl text-slate-900 tracking-tight">JITS Innovations Labs</span>
               </Link>
             </div>
