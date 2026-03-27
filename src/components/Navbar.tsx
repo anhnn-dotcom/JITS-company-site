@@ -48,7 +48,7 @@ export default function Navbar() {
             <div className="hidden md:ml-10 md:flex md:space-x-8">
               <Link to="/solutions" className="text-slate-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Solutions</Link>
               <Link to="/case-studies" className="text-slate-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Case Studies</Link>
-              <Link to="/company" className="text-slate-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Company</Link>
+              <Link to="/company" className="text-slate-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">About Us</Link>
               <Link to="/careers" className="text-slate-600 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors">Careers</Link>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link to="/solutions" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md">Solutions</Link>
             <Link to="/case-studies" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md">Case Studies</Link>
-            <Link to="/company" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md">Company</Link>
+            <Link to="/company" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md">About Us</Link>
             <Link to="/careers" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-slate-900 hover:bg-slate-50 rounded-md">Careers</Link>
             <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-base font-medium text-emerald-600 hover:bg-slate-50 rounded-md">Contact Sales</Link>
           </div>

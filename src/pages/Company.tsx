@@ -6,58 +6,37 @@ export default function Company() {
     {
       title: "",
       members: [
-        { name: "Thai Dao", role: "CEO", email: "" },
-        { name: "Kieu To Van", role: "COO", email: "" },
+        { name: "Thai Dao", role: "CEO", email: "", image: "/assets/member/thaidao.png" },
+        { name: "Kieu To Van", role: "COO", email: "", image: "/assets/member/kieutovan.png" },
       ]
     },
     {
       title: "Solution Architect",
       members: [
-        { name: "Chuong Le", role: "CTO", email: "chuongle@jitsinnovationlabs.com" },
+        { name: "Chuong Le", role: "CTO", email: "chuongle@jitsinnovationlabs.com", image: "/assets/member/chuongla.jpeg" },
       ]
     },
     {
       title: "Project Management",
       members: [
-        { name: "Nguyen Duc Hoang", role: "Managing Director", email: "hoangnd@jitsinnovationlabs.com" },
-        { name: "Nguyen Thi Tuyen", role: "Head of Deliver", email: "tuyennt@jitsinnovationlabs.com" },
-        { name: "Nguyen Thao Linh", role: "Project Coordinator", email: "linhnt@jitsinnovationlabs.com" },
-        { name: "Bui Thi Thao", role: "Product owner", email: "thaobt@jitsinnovationlabs.com" },
-        { name: "Nguyen Duy Hieu", role: "Product owner", email: "hieund@jitsinnovationlabs.com" },
-        { name: "Truong Cong Toan", role: "Product owner", email: "toantc@jitsinnovationlabs.com" },
+        { name: "Nguyen Duc Hoang", role: "Managing Director", email: "hoangnd@jitsinnovationlabs.com", image: "/assets/member/hoangnd.d43484e2.jpeg" },
+        { name: "Nguyen Thi Tuyen", role: "Head of Deliver", email: "tuyennt@jitsinnovationlabs.com", image: "/assets/member/tuyennt.cd2509ab.jpeg" },
+        { name: "Truong Cong Toan", role: "Product owner", email: "toantc@jitsinnovationlabs.com", image: "/assets/member/toantc.def0228e.jpeg" },
       ]
     },
     {
       title: "Development",
       members: [
-        { name: "Le Duc Anh", role: "Senior Developer", email: "tuyennt@jitsinnovationlabs.com" },
-        { name: "Pham Thanh Tu", role: "Team Leader", email: "tupt@jitsinnovationlabs.com" },
-        { name: "Dang Duy Bao Khanh", role: "Developer", email: "khanhddb@jitsinnovationlabs.com" },
-        { name: "Dang Huu Thanh", role: "Developer", email: "thanhdt@jitsinnovationlabs.com" },
-        { name: "Le Sy Duc", role: "Developer", email: "ducls@jitsinnovationlabs.com" },
-        { name: "Le Anh Quan", role: "Developer", email: "quanla@jitsinnovationlabs.com" },
-        { name: "Le Tien Dat", role: "Developer", email: "datlt@jitsinnovationlabs.com" },
-        { name: "Pham Duc Hai", role: "Developer", email: "haipd@jitsinnovationlabs.com" },
-        { name: "Nguyen Thanh Sang", role: "Developer", email: "sangnt@jitsinnovationlabs.com" },
-        { name: "Phan Tien Dung", role: "Developer", email: "dungpt@jitsinnovationlabs.com" },
-        { name: "Bui Thi Phuong Thao", role: "Developer", email: "thaobtp@jitsinnovationlabs.com" },
-        { name: "Nguyen Van Cuong", role: "Developer", email: "cuongnv@jitsinnovationlabs.com" },
-        { name: "Nguyen Thi Mung", role: "Test Lead", email: "mungnt@jitsinnovationlabs.com" },
-        { name: "Pham Thi Bich Huong", role: "Tester", email: "huongptb@jitsinnovationlabs.com" },
-        { name: "Le Thi Phuong Linh", role: "Tester", email: "linhltp@jitsinnovationlabs.com" },
-        { name: "Ban Thi Mai", role: "Tester", email: "maibt@jitsinnovationlabs.com" },
-        { name: "Pham Thi Bich Ngoc", role: "Tester", email: "ngocptb@jitsinnovationlabs.com" },
-        { name: "Mai Thi Tam", role: "Tester", email: "tammt@jitsinnovationlabs.com" },
-        { name: "Vu Thi Thanh", role: "Tester", email: "thanhvt@jitsinnovationlabs.com" },
+        { name: "Le Duc Anh", role: "Senior Developer", email: "tuyennt@jitsinnovationlabs.com", image: "/assets/member/anhld.fda3568f.jpeg" },
+        { name: "Dang Duy Bao Khanh", role: "Developer", email: "khanhddb@jitsinnovationlabs.com", image: "/assets/member/khanhddb.a8a273d4.jpeg" },
+        { name: "Dang Huu Thanh", role: "Developer", email: "thanhdt@jitsinnovationlabs.com", image: "/assets/member/thanhdh.b058b292.jpeg" },
+        { name: "Nguyen Thi Mung", role: "Test Lead", email: "mungnt@jitsinnovationlabs.com", image: "/assets/member/mungnt.e0bfa135.jpeg" },
       ]
     },
     {
       title: "Business Operation",
       members: [
-        { name: "Nguyen Thi Tuyet Mai", role: "HR", email: "maintt@jitsinnovationlabs.com" },
-        { name: "Nguyen Quoc Thang", role: "System Engineers", email: "thangtq@jitsinnovationlabs.com" },
-        { name: "Nguyen Tuan Hung", role: "System Engineer", email: "hungnt@jitsinnovationlabs.com" },
-        { name: "Nguyen Duc Anh", role: "System Engineer", email: "anhnd@jitsinnovationlabs.com" },
+        { name: "Nguyen Quoc Thang", role: "System Engineers", email: "thangtq@jitsinnovationlabs.com", image: "/assets/member/thangnq.jpeg" },
       ]
     }
   ];
@@ -66,9 +45,9 @@ export default function Company() {
     <main className="pt-20 bg-white">
       {/* Hero Image */}
       <section className="w-full h-[400px] md:h-[500px] lg:h-[600px] relative overflow-hidden">
-        <img 
-          src="https://picsum.photos/seed/jits-team/1920/1080" 
-          alt="JITS Team working together" 
+        <img
+          src="public/assets/AboutUs2.7f58fb66.jpg"
+          alt="JITS Team working together"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
         />
@@ -81,12 +60,12 @@ export default function Company() {
           <p className="text-lg text-slate-600 leading-relaxed mb-16">
             JITS InnovationLab is a leading technology & outsourcing company providing digital banking platforms, point of sale, streaming, and integration solution. Our team has many years of experience with core banking implementation and customization for enterprise clients, we helped numerous banks and micro finances enhance their products, digitalization is smoothly transitioning with the latest technology and remarkably detail business analytics.
           </p>
-          
+
           {/* Map Image Placeholder */}
           <div className="w-full max-w-3xl mx-auto aspect-video relative">
-            <img 
-              src="https://picsum.photos/seed/world-map/1200/600" 
-              alt="Global Presence Map" 
+            <img
+              src="public/assets/member/location.f8c9aa55.png"
+              alt="Global Presence Map"
               className="w-full h-full object-contain opacity-80 mix-blend-multiply"
               referrerPolicy="no-referrer"
             />
@@ -99,7 +78,7 @@ export default function Company() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Core Value */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -114,7 +93,7 @@ export default function Company() {
             </motion.div>
 
             {/* Mission */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -130,7 +109,7 @@ export default function Company() {
             </motion.div>
 
             {/* Vision */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -167,10 +146,10 @@ export default function Company() {
                     <h3 className="text-2xl md:text-3xl font-bold text-slate-900">{category.title}</h3>
                   </div>
                 )}
-                
+
                 <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ${!category.title ? 'justify-center sm:flex' : ''}`}>
                   {category.members.map((member, mIdx) => (
-                    <motion.div 
+                    <motion.div
                       key={mIdx}
                       initial={{ opacity: 0, scale: 0.95 }}
                       whileInView={{ opacity: 1, scale: 1 }}
@@ -178,8 +157,8 @@ export default function Company() {
                       className={`bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-sm hover:shadow-md transition-shadow ${!category.title ? 'w-full sm:w-64' : ''}`}
                     >
                       <div className="aspect-square bg-slate-100 relative">
-                        <img 
-                          src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=random&size=400`}
+                        <img
+                          src={member.image || `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=random&size=400`}
                           alt={member.name}
                           className="w-full h-full object-cover"
                           referrerPolicy="no-referrer"
