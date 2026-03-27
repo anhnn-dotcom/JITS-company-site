@@ -9,49 +9,56 @@ export default function Solutions() {
       title: 'Digital Banking',
       description: 'Deliver seamless, omnichannel banking experiences to your retail and corporate customers. Our platform is built on a modular architecture, allowing you to launch new features rapidly while maintaining bank-grade security and compliance.',
       features: ['Omnichannel Experience', 'Modular Architecture', 'Corporate & Retail Portals', 'Open Banking APIs'],
-      color: 'bg-blue-50 text-blue-600 border-blue-200'
+      color: 'bg-blue-50 text-blue-600 border-blue-200',
+      image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'digital-wallet',
       title: 'Digital Wallet',
       description: 'A secure, white-label wallet solution designed for seamless P2P transfers, merchant payments, bill payments, and financial inclusion. Easily customizable to match your brand identity.',
       features: ['P2P & Merchant Payments', 'QR Code Integration', 'Bill Payments', 'White-label Customization'],
-      color: 'bg-cyan-50 text-cyan-600 border-cyan-200'
+      color: 'bg-cyan-50 text-cyan-600 border-cyan-200',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'digital-lending',
       title: 'Digital Lending',
       description: 'Automate your end-to-end lending process. From origination and AI-driven credit scoring to disbursement and collection, our platform reduces approval times and minimizes risk.',
       features: ['Automated Origination', 'AI Credit Scoring', 'Instant Disbursement', 'Collection Management'],
-      color: 'bg-emerald-50 text-emerald-600 border-emerald-200'
+      color: 'bg-emerald-50 text-emerald-600 border-emerald-200',
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'cloud-pos',
       title: 'Cloud POS',
       description: 'Empower merchants with a flexible, cloud-based Point of Sale system. Manage inventory, process multi-channel payments, and access real-time analytics from any device, anywhere.',
       features: ['Multi-channel Payments', 'Real-time Inventory', 'Cloud Sync', 'Merchant Dashboard'],
-      color: 'bg-indigo-50 text-indigo-600 border-indigo-200'
+      color: 'bg-indigo-50 text-indigo-600 border-indigo-200',
+      image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'loyalty-wallet',
       title: 'Customer Loyalty Wallet',
       description: 'Drive customer retention and engagement with a dedicated loyalty wallet. Issue reward points, manage cashback programs, and create targeted promotional campaigns effortlessly.',
       features: ['Points & Rewards Engine', 'Cashback Management', 'Campaign Builder', 'Customer Analytics'],
-      color: 'bg-amber-50 text-amber-600 border-amber-200'
+      color: 'bg-amber-50 text-amber-600 border-amber-200',
+      image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'fineract',
       title: 'Fineract Core Banking',
       description: 'Modernize your legacy infrastructure with an API-first, highly scalable core banking engine based on Apache Fineract. Designed for microfinance, credit unions, and digital banks.',
       features: ['API-First Design', 'High Scalability', 'Product Factory', 'Accounting Engine'],
-      color: 'bg-slate-100 text-slate-700 border-slate-300'
+      color: 'bg-slate-100 text-slate-700 border-slate-300',
+      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop'
     },
     {
       id: 'vending-machine',
       title: 'Smart Vending Machine',
       description: 'Integrated payment and management solutions for automated retail. Connect your vending machines to the cloud for cashless payments, inventory tracking, and remote diagnostics.',
       features: ['Cashless Payments', 'Remote Telemetry', 'Inventory Tracking', 'Dynamic Pricing'],
-      color: 'bg-rose-50 text-rose-600 border-rose-200'
+      color: 'bg-rose-50 text-rose-600 border-rose-200',
+      image: 'https://images.unsplash.com/photo-1575314027890-f18a54c9d749?q=80&w=1200&auto=format&fit=crop'
     }
   ];
 
@@ -97,7 +104,7 @@ export default function Solutions() {
                 className="w-full lg:w-1/2 aspect-[4/3] lg:aspect-square xl:aspect-[4/3] rounded-3xl overflow-hidden relative shadow-xl"
               >
                 <img 
-                  src={`https://picsum.photos/seed/${product.id}/1200/900`} 
+                  src={product.image} 
                   alt={`${product.title} Interface`} 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
