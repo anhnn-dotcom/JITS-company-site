@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-16">
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-6">
-              <img src="/logo.png" alt="JITS Innovations Labs Logo" className="h-8 w-auto brightness-0 invert" />
+              <img src="/assets/logo.png" alt="JITS Innovations Labs Logo" className="h-8 w-auto brightness-0 invert" />
               <span className="font-bold text-xl text-white tracking-tight">JITS Innovations Labs</span>
             </Link>
             <p className="text-sm leading-relaxed mb-6 pr-4">

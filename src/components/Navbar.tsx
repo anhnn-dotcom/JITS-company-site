@@ -41,7 +41,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center gap-2">
               <Link to="/" className="flex items-center gap-2">
-                <img src="/logo.png" alt="JITS Innovations Labs Logo" className="h-8 w-auto" />
+                <img src="/assets/logo.png" alt="JITS Innovations Labs Logo" className="h-8 w-auto" />
                 <span className="font-bold text-xl text-slate-900 tracking-tight">JITS Innovations Labs</span>
               </Link>
             </div>
