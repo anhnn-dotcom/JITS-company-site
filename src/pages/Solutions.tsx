@@ -58,7 +58,7 @@ export default function Solutions() {
       description: 'Integrated payment and management solutions for automated retail. Connect your vending machines to the cloud for cashless payments, inventory tracking, and remote diagnostics.',
       features: ['Cashless Payments', 'Remote Telemetry', 'Inventory Tracking', 'Dynamic Pricing'],
       color: 'bg-rose-50 text-rose-600 border-rose-200',
-      image: 'https://images.unsplash.com/photo-1575314027890-f18a54c9d749?q=80&w=1200&auto=format&fit=crop'
+      image: 'https://www.smartvendingmachines.net/wp-content/uploads/2022/04/banner-3-01.png.pagespeed.ce.BqfcRDFdmn.png'
     }
   ];
 
@@ -71,14 +71,14 @@ export default function Solutions() {
           <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight"
           >
             Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Solutions</span>
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -94,18 +94,18 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32">
           {products.map((product, index) => (
             <div key={product.id} id={product.id} className={`flex flex-col lg:flex-row items-center gap-16 ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-              
+
               {/* Image Area */}
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: index % 2 !== 0 ? 50 : -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6 }}
                 className="w-full lg:w-1/2 aspect-[4/3] lg:aspect-square xl:aspect-[4/3] rounded-3xl overflow-hidden relative shadow-xl"
               >
-                <img 
-                  src={product.image} 
-                  alt={`${product.title} Interface`} 
+                <img
+                  src={product.image}
+                  alt={`${product.title} Interface`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                 />
@@ -113,7 +113,7 @@ export default function Solutions() {
               </motion.div>
 
               {/* Content Area */}
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, x: index % 2 !== 0 ? -50 : 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
@@ -129,7 +129,7 @@ export default function Solutions() {
                 <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                   {product.description}
                 </p>
-                
+
                 <ul className="grid sm:grid-cols-2 gap-4 mb-10">
                   {product.features.map((feature, fIdx) => (
                     <li key={fIdx} className="flex items-start gap-3">
@@ -139,8 +139,8 @@ export default function Solutions() {
                   ))}
                 </ul>
 
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-medium transition-all shadow-lg shadow-slate-900/20 group"
                 >
                   Request Demo
@@ -159,8 +159,8 @@ export default function Solutions() {
           <p className="text-lg text-slate-600 mb-10">
             Our experts are ready to analyze your business requirements and recommend the perfect technology stack for your financial institution.
           </p>
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg transition-all shadow-xl shadow-blue-600/20 hover:-translate-y-1"
           >
             Talk to an Expert
