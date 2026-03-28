@@ -46,7 +46,7 @@ export default function Company() {
       {/* Hero Image */}
       <section className="w-full h-[400px] md:h-[500px] lg:h-[600px] relative overflow-hidden">
         <img
-          src="public/assets/AboutUs2.7f58fb66.jpg"
+          src="/assets/AboutUs2.7f58fb66.jpg"
           alt="JITS Team working together"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -64,7 +64,7 @@ export default function Company() {
           {/* Map Image Placeholder */}
           <div className="w-full max-w-3xl mx-auto aspect-video relative">
             <img
-              src="public/assets/member/location.f8c9aa55.png"
+              src="/assets/member/location.f8c9aa55.png"
               alt="Global Presence Map"
               className="w-full h-full object-contain opacity-80 mix-blend-multiply"
               referrerPolicy="no-referrer"
